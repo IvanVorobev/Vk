@@ -1,15 +1,24 @@
 package ru.netology.domain;
 
 public class PostsInfo {
-    private int PostId;
-    private String PostName;
-    private String DatePost;
-    private String TimePost;
-    private String ImageUrl;
-    private String Text;
-    private int LikesCounter;
-    private String RepostsInfo;
-    private int ViewsCounter;
+    private int Id;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
+    private int date;
+    private String text;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
+    private String postType;
+    private int signerId;
+    private int canPin;
+    private int canDelete;
+    private int canEdit;
+    private int isPinned;
+    private int markedAsAds;
+    private boolean isFavorite;
+    private int postponedId;
 
 
     // + getters/setters
